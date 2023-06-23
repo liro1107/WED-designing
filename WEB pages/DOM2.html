@@ -6,16 +6,16 @@
     <title>Document</title>
 </head>
 <body>
+    <h1 id="heading1">hi i am original</h1>
+    <button onclick="change()">
+        change
+    </button>
     <script>
-        function writetodoc()
+        function change()
         {
-
-        document.write("hi am likith");
+            document.getElementById("heading1").innerHTML="i am changed";
         }
     </script>
-    <button onclick="writetodoc()">
-        write
-    </button>
     
 </body>
 </html>
